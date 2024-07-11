@@ -4,7 +4,7 @@
 * Client, Server, and EAC-friendly Mod.
 * All resources used are available in the vanilla client and retain core values.
 
-Adds a craftable variant of the Workbench and Chem Station:
+Adds a craftable variant for the Workbench and Chem Station:
 * Chemical Station
 * Tool Box
 
