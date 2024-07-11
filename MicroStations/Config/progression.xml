@@ -1,0 +1,17 @@
+<configs>
+
+		<!-- Adds appropriate icon(s) to UI -->
+		<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='workbench']/@icon">workbench,cntToolBoxClosedWhite,cntRollingToolBoxClosedWhite</set>
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='workbench']/@item">,workbenchMicro,cntRollingToolBox_Player</append>
+		
+		<!-- Unlocks the Recipe -->
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='workbench']/@tags">,workbenchMicro,cntRollingToolBox_Player</append>
+
+		<!-- Adds appropriate icon(s) to UI -->
+		<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='chemistryStation']/@icon">chemistryStation,cntChemPileLarge</set>
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='chemistryStation']/@item">,chemistryStationMicro</append>
+		
+		<!-- Unlocks the Recipe -->
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@tags='chemistryStation']/@tags">,chemistryStationMicro</append>
+
+</configs>

@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+chemistryStationMicro,blocks,Workstation,,,Chemical Station,,
+workbenchMicro,blocks,Workstation,,,Tool Box,,
+cntRollingToolBox_Player,blocks,block,,,Rolling Tool Box,,
+cntRollingToolBoxInsecure_Player,blocks,block,,,Rolling Tool Box,,
