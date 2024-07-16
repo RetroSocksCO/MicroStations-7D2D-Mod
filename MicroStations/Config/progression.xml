@@ -1,7 +1,7 @@
 <configs>
 
 	<!-- Adds appropriate icon(s) to UI -->
-	<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='workbench']/@icon">workbench,cntToolBoxClosedWhite,cntRollingToolBoxClosedWhite</set>
+	<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@icon='workbench,resourceLockPick,toolBellows,toolAnvil']/@icon">workbench,cntToolBoxClosedWhite,cntRollingToolBoxClosedWhite,resourceLockPick,toolBellows,toolAnvil</set>
 	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='workbench']/@item">,workbenchMicro,cntRollingToolBox_Player</append>
 		
 	<!-- Unlocks the Recipe -->
